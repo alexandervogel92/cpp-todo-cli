@@ -1,0 +1,24 @@
+# build artifacts
+build/
+build-*/
+cmake-build-*/
+
+# cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+compile_commands.json
+
+# binaries
+*.out
+*.o
+*.a
+*.so
+*.exe
+
+# IDE
+.idea/
+.vscode/
+
+# misc
+.DS_Store
