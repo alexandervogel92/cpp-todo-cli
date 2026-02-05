@@ -3,4 +3,11 @@ project(ToDo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ToDo main.cpp)
+add_executable(
+        ToDo main.cpp
+        todo.cpp
+        todo.hpp
+        colors.hpp
+        ui.cpp
+        ui.hpp
+)
